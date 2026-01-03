@@ -12,7 +12,7 @@
         "name": "Michel Drucker",
         "description": "L'immortel du PAF. À connu les dinosaures.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Michel%20Drucker",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/MichelDrucker-StudioHarcourt-1987.png/250px-MichelDrucker-StudioHarcourt-1987.png",
         "punchline": "Toujours là ! Il enterrera tout le monde, y compris ce jeu."
     },
     {
@@ -20,7 +20,7 @@
         "name": "Elvis Presley",
         "description": "Le King. Aime le rock, les bananes et les paillettes.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Elvis%20Presley",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/250px-Elvis_Presley_promoting_Jailhouse_Rock.jpg",
         "punchline": "Elvis has left the building... depuis 1977."
     },
     {
@@ -28,7 +28,7 @@
         "name": "Johnny Hallyday",
         "description": "L'idole des jeunes. A allumé le feu une fois de trop.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Johnny%20Hallyday",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Johnny_Hallyday_avp_2014_%28cropped%29.jpg/250px-Johnny_Hallyday_avp_2014_%28cropped%29.jpg",
         "punchline": "Ah que coucou ! Il nous a quittés en 2017."
     },
     {
@@ -36,7 +36,7 @@
         "name": "Céline Dion",
         "description": "La voix du Titanic. Son cœur continue de battre.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=C%C3%A9line%20Dion",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/C%C3%A9line_Dion_2012.jpg/250px-C%C3%A9line_Dion_2012.jpg",
         "punchline": "Near, far, wherever she is, she's still alive."
     },
     {
@@ -116,7 +116,7 @@
         "name": "Jean-Paul Belmondo",
         "description": "Le Magnifique. As de la cascade.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Jean-Paul%20Belmondo",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Belmondo_1960.jpg/250px-Belmondo_1960.jpg",
         "punchline": "Bébel a tiré sa révérence en 2021."
     },
     {
@@ -140,7 +140,7 @@
         "name": "Prince",
         "description": "Le Kid de Minneapolis. Purple Rain pour l'éternité.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Prince",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Prince_at_Coachella_%28cropped%29.jpg/250px-Prince_at_Coachella_%28cropped%29.jpg",
         "punchline": "La pluie pourpre a cessé en 2016."
     },
     {
@@ -188,7 +188,7 @@
         "name": "Robin Williams",
         "description": "Génie comique. Capitaine, ô mon capitaine.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Robin%20Williams",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Robin_Williams_Happy_Feet_premiere.jpg/250px-Robin_Williams_Happy_Feet_premiere.jpg",
         "punchline": "Le rire s'est éteint en 2014."
     },
     {
@@ -204,7 +204,7 @@
         "name": "Whitney Houston",
         "description": "La Voix. I Will Always Love You.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Whitney%20Houston",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Whitney_Houston_Welcome_Heroes_7a.JPEG/330px-Whitney_Houston_Welcome_Heroes_7a.JPEG",
         "punchline": "We have nothing... depuis 2012."
     },
     {
@@ -332,7 +332,7 @@
         "name": "Serge Gainsbourg",
         "description": "Gainsbarre. Poète maudit et provocateur.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Serge%20Gainsbourg",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Serge_Gainsbourg_par_Claude_Truong-Ngoc_1981.jpg/330px-Serge_Gainsbourg_par_Claude_Truong-Ngoc_1981.jpg",
         "punchline": "Je t'aime moi non plus... décédé en 1991."
     },
     {
