@@ -266,3 +266,84 @@ h1 {
         padding: 1rem;
     }
 }
+
+/* Fix for small vertical screens */
+@media (max-height: 800px) {
+    #app {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+
+    .screen {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .status-bar {
+        margin-bottom: 0.5rem;
+        flex-shrink: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .description {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* Ensure card doesn't overflow parent */
+        min-height: 0;
+    }
+
+    .photo-container {
+        /* Allow image to shrink */
+        flex-shrink: 1;
+        aspect-ratio: auto;
+        /* Override 1/1 */
+        height: auto;
+        max-height: 40vh;
+        /* Limit height */
+        margin-bottom: 1rem;
+    }
+
+    .photo {
+        object-fit: contain;
+        /* Ensure full image is visible if ratio changes */
+        background: #000;
+    }
+
+    .name {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .bio {
+        font-size: 0.9rem;
+        /* Truncate if too long? keeping it simple for now */
+    }
+
+    .controls {
+        margin-bottom: 0.5rem;
+        flex-shrink: 0;
+    }
+
+    .btn {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+}
