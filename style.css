@@ -270,18 +270,30 @@ h1 {
 /* Fix for small vertical screens */
 @media (max-height: 800px) {
     #app {
-        height: 100vh;
+        height: 100dvh;
+        /* Use dynamic viewport height to handle browser bars */
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 0.5rem;
+        box-sizing: border-box;
+        /* Ensure padding is included in height */
     }
 
     .screen {
         height: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        /* Center content by default */
+        gap: 2rem;
+        /* Add gap between elements */
+    }
+
+    /* Specific adjustment for game screen to spread out elements */
+    .game-screen {
         justify-content: space-between;
+        gap: 0;
     }
 
     .status-bar {

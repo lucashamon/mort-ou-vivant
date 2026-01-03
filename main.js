@@ -28,7 +28,7 @@ const renderGameScreen = (state) => {
     if (!card) return;
 
     app.innerHTML = `
-      <div class="screen">
+      <div class="screen game-screen">
         <div class="status-bar">
           <span class="lives">${'❤'.repeat(lives)}</span>
           <span class="score">SCORE: ${score}</span>
