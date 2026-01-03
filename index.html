@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mort ou Vivant ?</title>
     <meta name="description" content="Un jeu de quiz binaire au ton d'humour noir.">
     <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#121212">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('SW enregistré !'))
+                    .catch(err => console.log('Erreur SW :', err));
+            });
+        }
+    </script>
+</head>
+
+<body>
     <div id="app">
-      <!-- Content will be injected by main.js -->
+        <!-- Content will be injected by main.js -->
     </div>
     <script type="module" src="./main.js"></script>
-  </body>
+</body>
+
 </html>
