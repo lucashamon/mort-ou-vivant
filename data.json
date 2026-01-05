@@ -4,7 +4,7 @@
         "name": "Michael Jackson",
         "description": "Roi de la Pop, inventeur du Moonwalk et ami des enfants.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Michael_Jackson_in_1988.jpg/220px-Michael_Jackson_in_1988.jpg",
+        "photo": "/images/1.jpg",
         "punchline": "Hee-hee ! Il est parti moonwalker dans l'au-delà en 2009."
     },
     {
@@ -12,7 +12,7 @@
         "name": "Michel Drucker",
         "description": "L'immortel du PAF. À connu les dinosaures.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/MichelDrucker-StudioHarcourt-1987.png/250px-MichelDrucker-StudioHarcourt-1987.png",
+        "photo": "/images/2.png",
         "punchline": "Toujours là ! Il enterrera tout le monde, y compris ce jeu."
     },
     {
@@ -20,7 +20,7 @@
         "name": "Elvis Presley",
         "description": "Le King. Aime le rock, les bananes et les paillettes.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/250px-Elvis_Presley_promoting_Jailhouse_Rock.jpg",
+        "photo": "/images/3.jpg",
         "punchline": "Elvis has left the building... depuis 1977."
     },
     {
@@ -28,7 +28,7 @@
         "name": "Johnny Hallyday",
         "description": "L'idole des jeunes. A allumé le feu une fois de trop.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Johnny_Hallyday_avp_2014_%28cropped%29.jpg/250px-Johnny_Hallyday_avp_2014_%28cropped%29.jpg",
+        "photo": "/images/4.jpg",
         "punchline": "Ah que coucou ! Il nous a quittés en 2017."
     },
     {
@@ -36,7 +36,7 @@
         "name": "Céline Dion",
         "description": "La voix du Titanic. Son cœur continue de battre.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/C%C3%A9line_Dion_2012.jpg/250px-C%C3%A9line_Dion_2012.jpg",
+        "photo": "/images/5.jpg",
         "punchline": "Near, far, wherever she is, she's still alive."
     },
     {
@@ -44,7 +44,7 @@
         "name": "Queen Elizabeth II",
         "description": "La reine éternelle... ou presque.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Queen_Elizabeth_II_in_March_2015.jpg/220px-Queen_Elizabeth_II_in_March_2015.jpg",
+        "photo": "/images/6.jpg",
         "punchline": "Le dernier Corgi a pleuré en 2022."
     },
     {
@@ -52,7 +52,7 @@
         "name": "Elon Musk",
         "description": "Veut mourir sur Mars, mais pas à l'impact.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/220px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+        "photo": "/images/7.jpg",
         "punchline": "Il est encore là pour tweeter n'importe quoi."
     },
     {
@@ -60,7 +60,7 @@
         "name": "Marilyn Monroe",
         "description": "Pou-pou-pidou ! L'icône absolue d'Hollywood.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Monroe_pres_Truman.jpg/220px-Monroe_pres_Truman.jpg",
+        "photo": "/images/8.jpg",
         "punchline": "Partie trop tôt rejoindre les étoiles en 1962."
     },
     {
@@ -68,7 +68,7 @@
         "name": "Britney Spears",
         "description": "Oops, she did it again. Libérée, délivrée.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Britney_Spears_2013_%28Straighten_Crop%29.jpg/220px-Britney_Spears_2013_%28Straighten_Crop%29.jpg",
+        "photo": "/images/9.jpg",
         "punchline": "It's Britney, bitch ! Et elle est bien vivante."
     },
     {
@@ -76,7 +76,7 @@
         "name": "Steve Jobs",
         "description": "A inventé l'iPhone et le col roulé noir.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Steve_Jobs_Headshot_2010-CROP.jpg/220px-Steve_Jobs_Headshot_2010-CROP.jpg",
+        "photo": "/images/10.jpg",
         "punchline": "iDead depuis 2011."
     },
     {
@@ -84,7 +84,7 @@
         "name": "Renaud",
         "description": "Toujours debout, toujours la banane (ou presque).",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Renaud_Cannes_2016.jpg/220px-Renaud_Cannes_2016.jpg",
+        "photo": "/images/11.jpg",
         "punchline": "Toujours vivant, rassurez-vous !"
     },
     {
@@ -92,7 +92,7 @@
         "name": "David Bowie",
         "description": "L'homme qui venait d'ailleurs. Ziggy Stardust.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/David_Bowie_1974.jpg/220px-David_Bowie_1974.jpg",
+        "photo": "/images/12.jpg",
         "punchline": "Retourné sur sa planète en 2016."
     },
     {
@@ -100,7 +100,7 @@
         "name": "Keanu Reeves",
         "description": "L'élu. Il esquive les balles et le vieillissement.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Keanu_Reeves_2019.jpg/220px-Keanu_Reeves_2019.jpg",
+        "photo": "/images/13.jpg",
         "punchline": "Breathtakingly alive."
     },
     {
@@ -108,7 +108,7 @@
         "name": "Amy Winehouse",
         "description": "Elle a dit 'No, no, no' à la rehab.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Amy_Winehouse_fyyo_2008.jpg/220px-Amy_Winehouse_fyyo_2008.jpg",
+        "photo": "/images/14.jpg",
         "punchline": "Rejoint le club des 27 en 2011."
     },
     {
@@ -116,7 +116,7 @@
         "name": "Jean-Paul Belmondo",
         "description": "Le Magnifique. As de la cascade.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Belmondo_1960.jpg/250px-Belmondo_1960.jpg",
+        "photo": "/images/15.jpg",
         "punchline": "Bébel a tiré sa révérence en 2021."
     },
     {
@@ -124,7 +124,7 @@
         "name": "Alain Delon",
         "description": "Le Samouraï. Il parle de lui à la troisième personne.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Alain_Delon_Cannes_2019.jpg/220px-Alain_Delon_Cannes_2019.jpg",
+        "photo": "/images/16.jpg",
         "punchline": "Le Guépard dort définitivement depuis 2024."
     },
     {
@@ -132,7 +132,7 @@
         "name": "Madonna",
         "description": "La reine de la Pop. Se réinvente chaque décennie.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Madonna_Rebel_Heart_Tour_2015_-_Stockholm_%2823051472299%29_%28cropped%29.jpg/220px-Madonna_Rebel_Heart_Tour_2015_-_Stockholm_%2823051472299%29_%28cropped%29.jpg",
+        "photo": "/images/17.jpg",
         "punchline": "Like a virgin ? Peut-être pas, mais vivante oui."
     },
     {
@@ -140,7 +140,7 @@
         "name": "Prince",
         "description": "Le Kid de Minneapolis. Purple Rain pour l'éternité.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Prince_at_Coachella_%28cropped%29.jpg/250px-Prince_at_Coachella_%28cropped%29.jpg",
+        "photo": "/images/18.jpg",
         "punchline": "La pluie pourpre a cessé en 2016."
     },
     {
@@ -148,7 +148,7 @@
         "name": "Donald Trump",
         "description": "Make America Great Again. Chevelure défiant la gravité.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/220px-Donald_Trump_official_portrait.jpg",
+        "photo": "/images/19.jpg",
         "punchline": "Il est toujours là, et il le fait savoir."
     },
     {
@@ -156,7 +156,7 @@
         "name": "Freddie Mercury",
         "description": "Le champion du monde. Moustache légendaire.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg/220px-Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg",
+        "photo": "/images/20.jpg",
         "punchline": "The Show Must Go On... sans lui depuis 1991."
     },
     {
@@ -164,7 +164,7 @@
         "name": "Mimie Mathy",
         "description": "Ange gardien. Claque des doigts pour résoudre les problèmes.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Mimie_Mathy_Cannes_2014.jpg/220px-Mimie_Mathy_Cannes_2014.jpg",
+        "photo": "/images/21.jpg",
         "punchline": "Elle est toujours parmi nous !"
     },
     {
@@ -172,7 +172,7 @@
         "name": "Coluche",
         "description": "L'enfoiré préféré des Français. A mis les politiques au pied du mur.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Coluche_Cannes_1984.jpg/220px-Coluche_Cannes_1984.jpg",
+        "photo": "/images/22.jpg",
         "punchline": "Putain de camion... C'était en 1986."
     },
     {
@@ -180,7 +180,7 @@
         "name": "Tom Cruise",
         "description": "Mission Impossible. Fait ses propres cascades à 60 ans.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tom_Cruise_by_Gage_Skidmore_2.jpg/220px-Tom_Cruise_by_Gage_Skidmore_2.jpg",
+        "photo": "/images/23.jpg",
         "punchline": "Toujours en train de courir !"
     },
     {
@@ -188,7 +188,7 @@
         "name": "Robin Williams",
         "description": "Génie comique. Capitaine, ô mon capitaine.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Robin_Williams_Happy_Feet_premiere.jpg/250px-Robin_Williams_Happy_Feet_premiere.jpg",
+        "photo": "/images/24.jpg",
         "punchline": "Le rire s'est éteint en 2014."
     },
     {
@@ -196,7 +196,7 @@
         "name": "Snoop Dogg",
         "description": "Rappeur fumeur. Aime les plantes vertes.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Snoop_Dogg_2019_by_Glenn_Francis.jpg/220px-Snoop_Dogg_2019_by_Glenn_Francis.jpg",
+        "photo": "/images/25.jpg",
         "punchline": "Smoke weed everyday... et il est toujours vivant."
     },
     {
@@ -204,7 +204,7 @@
         "name": "Whitney Houston",
         "description": "La Voix. I Will Always Love You.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Whitney_Houston_Welcome_Heroes_7a.JPEG/330px-Whitney_Houston_Welcome_Heroes_7a.JPEG",
+        "photo": "/images/26.jpg",
         "punchline": "We have nothing... depuis 2012."
     },
     {
@@ -212,7 +212,7 @@
         "name": "Zinedine Zidane",
         "description": "Zizou. Coup de boule et roulette.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg/220px-Zinedine_Zidane_by_Tasnim_03.jpg",
+        "photo": "/images/27.jpg",
         "punchline": "Bien vivant ! Et il a toujours des cheveux... ah non."
     },
     {
@@ -220,7 +220,7 @@
         "name": "Bob Marley",
         "description": "Le prophète du Reggae. Peace and Love.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bob_Marley_in_1980.jpg/220px-Bob_Marley_in_1980.jpg",
+        "photo": "/images/28.jpg",
         "punchline": "No woman, no cry... Il est parti en 1981."
     },
     {
@@ -228,7 +228,7 @@
         "name": "Rihanna",
         "description": "Chanteuse, femme d'affaires et reine de la Barbade.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rihanna_Fenty_2019.png/220px-Rihanna_Fenty_2019.png",
+        "photo": "/images/29.jpg",
         "punchline": "Shine bright like a diamond, toujours en vie."
     },
     {
@@ -236,7 +236,7 @@
         "name": "John Lennon",
         "description": "Imagine all the people... Le Beatle pacifiste.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/John_Lennon_1969_%28cropped%29.jpg/220px-John_Lennon_1969_%28cropped%29.jpg",
+        "photo": "/images/30.jpg",
         "punchline": "Assassiné en 1980. Imagine there's no heaven..."
     },
     {
@@ -244,7 +244,7 @@
         "name": "Will Smith",
         "description": "Le Prince de Bel-Air. A la main leste aux Oscars.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg/220px-TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg",
+        "photo": "/images/31.jpg",
         "punchline": "Gettin' jiggy with it... bien vivant."
     },
     {
@@ -252,7 +252,7 @@
         "name": "Kurt Cobain",
         "description": "Leader de Nirvana. Smells like teen spirit.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nirvana_around_1992.jpg/220px-Nirvana_around_1992.jpg",
+        "photo": "/images/32.jpg",
         "punchline": "Parti rejoindre le club des 27 en 1994."
     },
     {
@@ -260,7 +260,7 @@
         "name": "Taylor Swift",
         "description": "L'industrie musicale à elle toute seule.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png/220px-191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png",
+        "photo": "/images/33.png",
         "punchline": "Shake it off ! Elle est plus vivante que jamais."
     },
     {
@@ -268,7 +268,7 @@
         "name": "Tupac Shakur",
         "description": "Légende du Rap West Coast. Thug Life.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Tupac_Amaru_Shakur.jpg/220px-Tupac_Amaru_Shakur.jpg",
+        "photo": "/images/34.jpg",
         "punchline": "California Love... stoppé net en 1996."
     },
     {
@@ -276,7 +276,7 @@
         "name": "Emmanuel Macron",
         "description": "Président Jupiter. En marche... ou pas.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Emmanuel_Macron_%28cropped%29.jpg/220px-Emmanuel_Macron_%28cropped%29.jpg",
+        "photo": "/images/35.jpg",
         "punchline": "C'est notre projet ! Et il est vivant."
     },
     {
@@ -284,7 +284,7 @@
         "name": "Charles Aznavour",
         "description": "La Bohème. A chanté jusqu'au bout.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Charles_Aznavour_en_2014.jpg/220px-Charles_Aznavour_en_2014.jpg",
+        "photo": "/images/36.jpg",
         "punchline": "Emmenez-moi... Il est parti en 2018."
     },
     {
@@ -292,7 +292,7 @@
         "name": "Lady Gaga",
         "description": "Mother Monster. A porté une robe en viande.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Lady_Gaga_interview_2016.jpg/220px-Lady_Gaga_interview_2016.jpg",
+        "photo": "/images/37.jpg",
         "punchline": "Rah-rah-ah-ah-ah ! Vivante !"
     },
     {
@@ -300,7 +300,7 @@
         "name": "Edith Piaf",
         "description": "La Môme. La vie en rose et les regrets.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Edith_Piaf_1962.jpg/220px-Edith_Piaf_1962.jpg",
+        "photo": "/images/38.jpg",
         "punchline": "Non, rien de rien... Elle nous a quittés en 1963."
     },
     {
@@ -308,7 +308,7 @@
         "name": "Stromae",
         "description": "Formidable. Maestro belge.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Stromae_at_the_2010_NRJ_Music_Awards.jpg/220px-Stromae_at_the_2010_NRJ_Music_Awards.jpg",
+        "photo": "/images/39.jpg",
         "punchline": "Alors on danse ? Oui, car il est vivant."
     },
     {
@@ -316,7 +316,7 @@
         "name": "Simone Veil",
         "description": "Icône politique. Combat pour les femmes.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Simone_Veil_Academie_francaise.jpg/220px-Simone_Veil_Academie_francaise.jpg",
+        "photo": "/images/40.jpg",
         "punchline": "Entrée au Panthéon après son décès en 2017."
     },
     {
@@ -324,7 +324,7 @@
         "name": "Dwayne Johnson",
         "description": "The Rock. Soulève de la fonte au petit-déjeuner.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg/220px-Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg",
+        "photo": "/images/41.jpg",
         "punchline": "Solide comme un roc et bien vivant."
     },
     {
@@ -332,7 +332,7 @@
         "name": "Serge Gainsbourg",
         "description": "Gainsbarre. Poète maudit et provocateur.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Serge_Gainsbourg_par_Claude_Truong-Ngoc_1981.jpg/330px-Serge_Gainsbourg_par_Claude_Truong-Ngoc_1981.jpg",
+        "photo": "/images/42.jpg",
         "punchline": "Je t'aime moi non plus... décédé en 1991."
     },
     {
@@ -340,7 +340,7 @@
         "name": "Leo Messi",
         "description": "La Pulga. Génie du ballon rond.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/220px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg",
+        "photo": "/images/43.jpg",
         "punchline": "Toujours vivant et champion du monde."
     },
     {
@@ -348,7 +348,7 @@
         "name": "Avicii",
         "description": "DJ suédois. Wake me up when it's all over.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Avicii",
+        "photo": "/images/44.jpg",
         "punchline": "La fête est finie depuis 2018."
     },
     {
@@ -356,7 +356,7 @@
         "name": "Omar Sy",
         "description": "Intouchable. Le sourire préféré de la France.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Omar_Sy_2023.jpg/220px-Omar_Sy_2023.jpg",
+        "photo": "/images/45.jpg",
         "punchline": "SAV des émissions, il est toujours là."
     },
     {
@@ -364,7 +364,7 @@
         "name": "Stan Lee",
         "description": "Père des super-héros Marvel. Excelsior !",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stan_Lee_2012_Comikaze_Expo.jpg/220px-Stan_Lee_2012_Comikaze_Expo.jpg",
+        "photo": "/images/46.jpg",
         "punchline": "Dernier caméo en 2018."
     },
     {
@@ -372,7 +372,7 @@
         "name": "Billie Eilish",
         "description": "Bad Guy. Murmire dans les micros.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Billie_Eilish_2019_by_Glenn_Francis_%28cropped%29_2.jpg/220px-Billie_Eilish_2019_by_Glenn_Francis_%28cropped%29_2.jpg",
+        "photo": "/images/47.jpg",
         "punchline": "Duh! Vivante évidemment."
     },
     {
@@ -380,7 +380,7 @@
         "name": "Stephen Hawking",
         "description": "Génie de l'astrophysique. Une brève histoire du temps.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Stephen_Hawking.StarChild.jpg/220px-Stephen_Hawking.StarChild.jpg",
+        "photo": "/images/48.jpg",
         "punchline": "Rejoint le cosmos en 2018."
     },
     {
@@ -388,7 +388,7 @@
         "name": "Aya Nakamura",
         "description": "Djadja. La reine de France selon certains.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aya_Nakamura_Cabaret_Frapp%C3%A9_2019_01.jpg/220px-Aya_Nakamura_Cabaret_Frapp%C3%A9_2019_01.jpg",
+        "photo": "/images/49.jpg",
         "punchline": "Y'a pas moyen Djadja... qu'elle soit morte."
     },
     {
@@ -396,7 +396,7 @@
         "name": "Chadwick Boseman",
         "description": "Black Panther. Roi du Wakanda. Wakanda Forever.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg/220px-Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg",
+        "photo": "/images/50.jpg",
         "punchline": "Le roi est mort en 2020."
     },
     {
@@ -404,7 +404,7 @@
         "name": "Brad Pitt",
         "description": "Beau gosse d'Hollywood. Fight Club.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Brad_Pitt_Fury_2014.jpg/220px-Brad_Pitt_Fury_2014.jpg",
+        "photo": "/images/51.jpg",
         "punchline": "Toujours aussi vivant et craquant."
     },
     {
@@ -412,7 +412,7 @@
         "name": "Mohamed Ali",
         "description": "The Greatest. Vole comme le papillon, pique comme l'abeille.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS_2.jpg/220px-Muhammad_Ali_NYWTS_2.jpg",
+        "photo": "/images/52.jpg",
         "punchline": "K.O. final en 2016."
     },
     {
@@ -420,7 +420,7 @@
         "name": "J.K. Rowling",
         "description": "Maman d'Harry Potter. La magie existe.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/220px-J._K._Rowling_2010.jpg",
+        "photo": "/images/53.jpg",
         "punchline": "Pas de sortilège de mort pour l'instant."
     },
     {
@@ -428,7 +428,7 @@
         "name": "Chester Bennington",
         "description": "Voix de Linkin Park. In the End.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Chester_Bennington_2012.jpg/220px-Chester_Bennington_2012.jpg",
+        "photo": "/images/54.jpg",
         "punchline": "It doesn't even matter... Parti en 2017."
     },
     {
@@ -436,7 +436,7 @@
         "name": "Patrick Sebastien",
         "description": "Le roi des serviettes. Et on fait tourner !",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Patrick_S%C3%A9bastien_Cannes_2011.jpg/220px-Patrick_S%C3%A9bastien_Cannes_2011.jpg",
+        "photo": "/images/55.jpg",
         "punchline": "Ah si tu pouvais fermer ta... mais il est vivant."
     },
     {
@@ -444,7 +444,7 @@
         "name": "Carrie Fisher",
         "description": "Princesse Leia. La Force était avec elle.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Carrie_Fisher_2013-a_straightened.jpg/220px-Carrie_Fisher_2013-a_straightened.jpg",
+        "photo": "/images/56.jpg",
         "punchline": "Devenue un fantôme de la Force en 2016."
     },
     {
@@ -452,7 +452,7 @@
         "name": "Mylène Farmer",
         "description": "L'ange roux. Libertine et mystérieuse.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Myl%C3%A8ne_Farmer_Cannes.jpg/220px-Myl%C3%A8ne_Farmer_Cannes.jpg",
+        "photo": "/images/57.jpg",
         "punchline": "Désenchantée peut-être, mais vivante."
     },
     {
@@ -460,7 +460,7 @@
         "name": "Gustave Eiffel",
         "description": "A construit une tour en ferraille à Paris.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Gustave%20Eiffel",
+        "photo": "/images/58.jpg",
         "punchline": "Mort depuis 1923, sa tour tient toujours."
     },
     {
@@ -468,7 +468,7 @@
         "name": "Jean Dujardin",
         "description": "The Artist. Loulou. OSS 117.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Jean%20Dujardin",
+        "photo": "/images/59.jpg",
         "punchline": "Il ne rit pas jaune, il est bien vivant."
     },
     {
@@ -476,7 +476,7 @@
         "name": "Diego Maradona",
         "description": "El Pibe de Oro. La main de Dieu.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.jpg/220px-Maradona-Mundial_86_con_la_copa.jpg",
+        "photo": "/images/60.jpg",
         "punchline": "Dribble final vers l'au-delà en 2020."
     },
     {
@@ -484,7 +484,7 @@
         "name": "Greta Thunberg",
         "description": "Elle vous surveille. How dare you !",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Greta%20Thunberg",
+        "photo": "/images/61.jpg",
         "punchline": "Vivante et en colère."
     },
     {
@@ -492,7 +492,7 @@
         "name": "Nelson Mandela",
         "description": "Madiba. 27 ans de prison pour la liberté.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/220px-Nelson_Mandela_1994.jpg",
+        "photo": "/images/62.jpg",
         "punchline": "Libre définitivement depuis 2013."
     },
     {
@@ -500,7 +500,7 @@
         "name": "Marion Cotillard",
         "description": "La Môme (au cinéma). Meurt mal dans Batman.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marion_Cotillard_Cannes_2019_2.jpg/220px-Marion_Cotillard_Cannes_2019_2.jpg",
+        "photo": "/images/63.jpg",
         "punchline": "Bien vivante, contrairement à son personnage dans Batman."
     },
     {
@@ -508,7 +508,7 @@
         "name": "George Michael",
         "description": "Wham! Last Christmas I gave you my heart.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=George%20Michael",
+        "photo": "/images/64.jpg",
         "punchline": "Son dernier Noël était en 2016."
     },
     {
@@ -516,7 +516,7 @@
         "name": "Orelsan",
         "description": "Rappeur normand. Simple. Basique.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Orelsan_2018.jpg/220px-Orelsan_2018.jpg",
+        "photo": "/images/65.jpg",
         "punchline": "Toujours vivant. Simple."
     },
     {
@@ -524,7 +524,7 @@
         "name": "Aretha Franklin",
         "description": "Queen of Soul. R-E-S-P-E-C-T.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Aretha_Franklin_1968.jpg/220px-Aretha_Franklin_1968.jpg",
+        "photo": "/images/66.jpg",
         "punchline": "Respect éternel depuis 2018."
     },
     {
@@ -532,7 +532,7 @@
         "name": "Cristiano Ronaldo",
         "description": "CR7. Siuuuu !",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/220px-Cristiano_Ronaldo_2018.jpg",
+        "photo": "/images/67.jpg",
         "punchline": "Siuuuu ! Vivant !"
     },
     {
@@ -540,7 +540,7 @@
         "name": "Kobe Bryant",
         "description": "Black Mamba. Légende des Lakers.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kobe_Bryant_2014.jpg/220px-Kobe_Bryant_2014.jpg",
+        "photo": "/images/68.jpg",
         "punchline": "Tragiquement disparu en 2020."
     },
     {
@@ -548,7 +548,7 @@
         "name": "Mark Zuckerberg",
         "description": "Fondateur de Facebook. Est-ce un robot ?",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/220px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg",
+        "photo": "/images/69.jpg",
         "punchline": "Logiciel système toujours fonctionnel (vivant)."
     },
     {
@@ -556,7 +556,7 @@
         "name": "Paul Walker",
         "description": "Fast & Furious. Trop rapide.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Paul%20Walker",
+        "photo": "/images/70.jpg",
         "punchline": "It's been a long day... Parti en 2013."
     },
     {
@@ -564,7 +564,7 @@
         "name": "Daft Punk (Le groupe)",
         "description": "Robots musiciens. Harder, Better, Faster, Stronger.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Daft%20Punk%20(Le%20groupe)",
+        "photo": "/images/71.jpg",
         "punchline": "Le groupe s'est auto-détruit en 2021. Les humains sont vivants."
     },
     {
@@ -572,7 +572,7 @@
         "name": "Gérard Depardieu",
         "description": "Monstre sacré du cinéma. Obélix.",
         "isAlive": true,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/G%C3%A9rard_Depardieu_Cannes_2015.jpg/220px-G%C3%A9rard_Depardieu_Cannes_2015.jpg",
+        "photo": "/images/72.jpg",
         "punchline": "Toujours là, imposant."
     },
     {
@@ -580,7 +580,7 @@
         "name": "Tina Turner",
         "description": "Simply the Best. Lionne du rock.",
         "isAlive": false,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Tina_Turner_live_in_Milan_1990.jpg/220px-Tina_Turner_live_in_Milan_1990.jpg",
+        "photo": "/images/73.jpg",
         "punchline": "Simply the best, au paradis depuis 2023."
     },
     {
@@ -588,7 +588,7 @@
         "name": "Pierre-François Martin-Laval",
         "description": "Pierre-François Martin-Laval, aussi connu sous le nom de Pef, est un acteur, réalisateur et scénariste français. Ancien membre des Robins des Bois, il est célèbre pour ses films comiques comme 'Les Profs'.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Pierre-Fran%C3%A7ois+Martin-Laval",
+        "photo": "/images/74.jpg",
         "punchline": "Toujours vivant et prof jusqu'au bout."
     },
     {
@@ -596,7 +596,7 @@
         "name": "Tony Estanguet",
         "description": "Tony Estanguet est un athlète français, spécialiste du canoë-kayak. Triple champion olympique, il est également président du comité d'organisation des Jeux olympiques de Paris 2024.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Tony+Estanguet",
+        "photo": "/images/75.jpg",
         "punchline": "Il pagaie encore parmi nous."
     },
     {
@@ -604,7 +604,7 @@
         "name": "Florent Pagny",
         "description": "Florent Pagny est un chanteur et acteur français, célèbre pour ses nombreuses chansons à succès comme 'Savoir aimer'. Il est également connu comme coach dans l'émission 'The Voice' en France.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Florent+Pagny",
+        "photo": "/images/76.jpg",
         "punchline": "Sa liberté de penser (et de respirer) est intacte."
     },
     {
@@ -612,7 +612,7 @@
         "name": "Christopher Lloyd",
         "description": "Christopher Lloyd est un acteur américain, célèbre pour son rôle du Dr Emmett Brown dans la trilogie 'Retour vers le futur'. Il a également joué dans de nombreuses séries et films comiques.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Christopher+Lloyd",
+        "photo": "/images/77.jpg",
         "punchline": "Nom de Zeus ! Il est encore là."
     },
     {
@@ -620,7 +620,7 @@
         "name": "Julie Pietri",
         "description": "Julie Pietri est une chanteuse française, connue pour son tube 'Eve lève-toi' dans les années 1980. Elle a marqué la scène de la variété française avec sa voix et son style unique.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Julie+Pietri",
+        "photo": "/images/78.jpg",
         "punchline": "Eve s'est levée et ne s'est pas recouchée."
     },
     {
@@ -628,7 +628,7 @@
         "name": "Kendji Girac",
         "description": "Kendji Girac est un chanteur français, révélé par l'émission 'The Voice'. Avec des tubes comme 'Color Gitano', il s'est imposé comme l'une des figures majeures de la musique pop et gitane.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Kendji+Girac",
+        "photo": "/images/79.jpg",
         "punchline": "Il joue de la guitare... vivant."
     },
     {
@@ -636,7 +636,7 @@
         "name": "Sylvain Mirouf",
         "description": "Sylvain Mirouf est un magicien et illusionniste français, connu pour ses interventions dans plusieurs émissions télévisées. Il a popularisé la magie auprès du grand public dans les années 1990 et 2000.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Sylvain+Mirouf",
+        "photo": "/images/80.jpg",
         "punchline": "Il n'a pas disparu !"
     },
     {
@@ -644,7 +644,7 @@
         "name": "Lucie Castets",
         "description": "Lucie Castets est une actrice et humoriste française, connue pour ses rôles dans des spectacles de stand-up et ses apparitions dans des émissions de divertissement.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Lucie+Castets",
+        "photo": "/images/81.jpg",
         "punchline": "Bien vivante."
     },
     {
@@ -652,7 +652,7 @@
         "name": "Enrico Macias",
         "description": "Enrico Macias est un chanteur français d'origine algérienne, connu pour ses chansons en faveur de la paix et de la fraternité. Il est une icône de la chanson française depuis les années 1960.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Enrico+Macias",
+        "photo": "/images/82.jpg",
         "punchline": "Ah qu'elles sont jolies les filles de mon pays (et lui aussi)."
     },
     {
@@ -660,7 +660,7 @@
         "name": "Patrick Stewart",
         "description": "Patrick Stewart est un acteur britannique, célèbre pour son rôle du capitaine Jean-Luc Picard dans 'Star Trek' et celui de Charles Xavier dans la saga 'X-Men'. Il est une figure emblématique de la science-fiction.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Patrick+Stewart",
+        "photo": "/images/83.jpg",
         "punchline": "Engage ! Vers le futur, vivant."
     },
     {
@@ -668,7 +668,7 @@
         "name": "Philippe Manoeuvre",
         "description": "Philippe Manoeuvre est un journaliste musical et écrivain français, connu pour être une référence dans le domaine du rock. Il a animé plusieurs émissions consacrées à la musique et écrit de nombreux ouvrages.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Philippe+Manoeuvre",
+        "photo": "/images/84.jpg",
         "punchline": "Rock'n'roll attitude jusqu'au bout."
     },
     {
@@ -676,7 +676,7 @@
         "name": "Leonardo DiCaprio",
         "description": "Leonardo DiCaprio est un acteur et producteur américain, célèbre pour ses rôles dans des films comme 'Titanic', 'Inception' et 'The Revenant'. Il est également un activiste engagé dans la protection de l'environnement.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Leonardo+DiCaprio",
+        "photo": "/images/85.jpg",
         "punchline": "Le roi du monde est toujours là."
     },
     {
@@ -684,7 +684,7 @@
         "name": "Christophe Dugarry",
         "description": "Christophe Dugarry est un ancien footballeur français, champion du monde en 1998 avec l'équipe de France. Après sa carrière sportive, il est devenu consultant et animateur d'émissions de football.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Christophe+Dugarry",
+        "photo": "/images/86.jpg",
         "punchline": "Champion du monde et bien vivant."
     },
     {
@@ -692,7 +692,7 @@
         "name": "Mireille Dumas",
         "description": "Mireille Dumas est une journaliste et réalisatrice française, connue pour ses émissions de télévision centrées sur les témoignages intimes et les portraits de personnalités.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Mireille+Dumas",
+        "photo": "/images/87.jpg",
         "punchline": "Vie privée, vie publique, vie tout court."
     },
     {
@@ -700,7 +700,7 @@
         "name": "Maurice White",
         "description": "Maurice White est un musicien américain, fondateur du groupe de funk Earth, Wind & Fire. Il est à l'origine de nombreux succès, marquant l'histoire de la musique avec des tubes comme 'September'.",
         "isAlive": false,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Maurice+White",
+        "photo": "/images/88.jpg",
         "punchline": "September... s'est fini en 2016."
     },
     {
@@ -708,7 +708,7 @@
         "name": "Guy Lux",
         "description": "Guy Lux est un animateur et producteur de télévision français, célèbre pour avoir créé et animé des émissions de divertissement comme 'Intervilles'. Il a marqué la télévision française pendant plusieurs décennies.",
         "isAlive": false,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Guy+Lux",
+        "photo": "/images/89.jpg",
         "punchline": "Le Schmilblick s'est arrêté en 2003."
     },
     {
@@ -716,7 +716,7 @@
         "name": "Stéphane Rotenberg",
         "description": "Stéphane Rotenberg est un animateur de télévision français, connu pour ses émissions de voyage et de compétition comme 'Pékin Express' et 'Top Chef'. Il est devenu un visage incontournable de la télévision française.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=St%C3%A9phane+Rotenberg",
+        "photo": "/images/90.jpg",
         "punchline": "Pas d'élimination pour lui aujourd'hui."
     },
     {
@@ -724,7 +724,7 @@
         "name": "Michel Platini",
         "description": "Michel Platini est un ancien footballeur français, considéré comme l'un des meilleurs joueurs de l'histoire. Après sa carrière de joueur, il a occupé des postes de direction au sein de la FIFA et de l'UEFA.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Michel+Platini",
+        "photo": "/images/91.jpg",
         "punchline": "Le numéro 10 joue toujours (sa vie)."
     },
     {
@@ -732,7 +732,7 @@
         "name": "Marion Jollès",
         "description": "Marion Jollès est une journaliste et animatrice de télévision française, spécialisée dans le sport automobile. Elle a notamment coanimé des émissions sur la Formule 1 et d'autres compétitions sportives.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Marion+Joll%C3%A8s",
+        "photo": "/images/92.jpg",
         "punchline": "En pôle position de la vie."
     },
     {
@@ -740,7 +740,7 @@
         "name": "Benoît Poelvoorde",
         "description": "Benoît Poelvoorde est un acteur et humoriste belge, connu pour ses rôles dans des films comiques comme 'Podium' et 'Le Tout Nouveau Testament'. Il est apprécié pour son humour décalé et son charisme.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Beno%C3%AEt+Poelvoorde",
+        "photo": "/images/93.jpg",
         "punchline": "C'est arrivé près de chez vous... qu'il soit vivant."
     },
     {
@@ -748,7 +748,7 @@
         "name": "Christophe Salengro",
         "description": "Christophe Salengro est un acteur et comédien français, surtout connu pour son rôle de président fictif dans l'émission satirique 'Groland'. Son personnage excentrique est devenu culte.",
         "isAlive": false,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Christophe+Salengro",
+        "photo": "/images/94.jpg",
         "punchline": "Le Groland est en deuil depuis 2018."
     },
     {
@@ -756,7 +756,7 @@
         "name": "Rossy de Palma",
         "description": "Rossy de Palma est une actrice et mannequin espagnole, muse du réalisateur Pedro Almodóvar. Elle est connue pour son physique atypique et son jeu d'actrice dans des films emblématiques du cinéma espagnol.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Rossy+de+Palma",
+        "photo": "/images/95.jpg",
         "punchline": "Picasso l'aurait peinte vivante."
     },
     {
@@ -764,7 +764,7 @@
         "name": "Ramzy Bedia",
         "description": "Ramzy Bedia est un acteur et humoriste français, connu pour son duo comique avec Éric Judor. Il a également joué dans des comédies à succès comme 'La Tour Montparnasse Infernale'.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Ramzy+Bedia",
+        "photo": "/images/96.jpg",
         "punchline": "Pas de tour infernale pour lui."
     },
     {
@@ -772,7 +772,7 @@
         "name": "Adèle Exarchopoulos",
         "description": "Adèle Exarchopoulos est une actrice française, révélée par son rôle dans le film 'La Vie d'Adèle', pour lequel elle a reçu la Palme d'Or au Festival de Cannes. Elle est l'une des actrices les plus prometteuses de sa génération.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Ad%C3%A8le+Exarchopoulos",
+        "photo": "/images/97.jpg",
         "punchline": "La vie d'Adèle continue."
     },
     {
@@ -780,7 +780,7 @@
         "name": "Christian Karembeu",
         "description": "Christian Karembeu est un ancien footballeur français, champion du monde en 1998. Il est également connu pour ses engagements humanitaires et son travail en tant que consultant sportif.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Christian+Karembeu",
+        "photo": "/images/98.jpg",
         "punchline": "Toujours champion."
     },
     {
@@ -788,7 +788,7 @@
         "name": "Isabelle Adjani",
         "description": "Isabelle Adjani est une actrice française, considérée comme l'une des plus grandes actrices de sa génération. Elle a remporté de nombreux prix pour ses rôles dans des films comme 'L'Été meurtrier' et 'La Reine Margot'.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Isabelle+Adjani",
+        "photo": "/images/99.jpg",
         "punchline": "Pull marine, mais pas noyée."
     },
     {
@@ -796,7 +796,7 @@
         "name": "Danielle Mitterrand",
         "description": "Danielle Mitterrand est une militante et écrivaine française, épouse de l'ancien président François Mitterrand. Elle s'est engagée toute sa vie pour les droits de l'homme et les causes humanitaires.",
         "isAlive": false,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Danielle+Mitterrand",
+        "photo": "/images/100.jpg",
         "punchline": "Engagée jusqu'en 2011."
     },
     {
@@ -804,7 +804,7 @@
         "name": "Bernard Lavilliers",
         "description": "Bernard Lavilliers est un chanteur et auteur-compositeur français, connu pour ses chansons engagées et son mélange de genres musicaux, du rock à la musique latine. Il est une figure incontournable de la chanson française.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Bernard+Lavilliers",
+        "photo": "/images/101.jpg",
         "punchline": "On the road again... vivant."
     },
     {
@@ -812,7 +812,7 @@
         "name": "Arthur",
         "description": "Arthur, de son vrai nom Jacques Essebag, est un animateur et producteur de télévision français. Il est l'une des figures les plus influentes du divertissement en France, animant des émissions populaires depuis les années 1990.",
         "isAlive": true,
-        "photo": "https://placehold.co/400x400/222/FFF?text=Arthur",
+        "photo": "/images/102.jpg",
         "punchline": "Les enfants de la télé sont contents."
     },
     {
@@ -820,7 +820,7 @@
         "name": "Bruce Willis",
         "description": "Yippee-ki-yay ! Sauveur du monde en marcel.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Bruce%20Willis",
+        "photo": "/images/103.jpg",
         "punchline": "Il est dur à cuire, et toujours vivant."
     },
     {
@@ -828,7 +828,7 @@
         "name": "Raymond Domenech",
         "description": "Sélectionneur aux sourcils froncés. A demandé sa femme en mariage à la télé.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Raymond%20Domenech",
+        "photo": "/images/104.jpg",
         "punchline": "Toujours là pour lire une lettre si besoin."
     },
     {
@@ -836,7 +836,7 @@
         "name": "Brian May",
         "description": "Guitariste de Queen et astrophysicien. La coupe de cheveux défiant la physique.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Brian%20May",
+        "photo": "/images/105.jpg",
         "punchline": "Le show continue pour lui."
     },
     {
@@ -844,7 +844,7 @@
         "name": "Karin Viard",
         "description": "Actrice aux mille visages. Famille Bélier et Tatie Danielle.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Karin%20Viard",
+        "photo": "/images/106.jpg",
         "punchline": "Bien vivante et toujours aussi talentueuse."
     },
     {
@@ -852,7 +852,7 @@
         "name": "Abbé Pierre",
         "description": "Fondateur d'Emmaüs. L'hiver 54.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Abb%C3%A9%20Pierre",
+        "photo": "/images/107.jpg",
         "punchline": "Il a rejoint le ciel en 2007."
     },
     {
@@ -860,7 +860,7 @@
         "name": "Iris Mittenaere",
         "description": "Miss Univers. La plus belle femme de l'univers (en 2016).",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Iris%20Mittenaere",
+        "photo": "/images/108.jpg",
         "punchline": "Toujours aussi rayonnante et vivante."
     },
     {
@@ -868,7 +868,7 @@
         "name": "Claude Chamboissier",
         "description": "Framboisier des Musclés. La fête au village.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Claude%20Chamboissier",
+        "photo": "/images/109.jpg",
         "punchline": "La fête est finie depuis 2015."
     },
     {
@@ -876,7 +876,7 @@
         "name": "Claude Monet",
         "description": "Peintre impressionniste. Aimait beaucoup les nénuphars.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Claude%20Monet",
+        "photo": "/images/110.jpg",
         "punchline": "Ses couleurs ont séché en 1926."
     },
     {
@@ -884,7 +884,7 @@
         "name": "Anne Le Ny",
         "description": "Actrice et réalisatrice. Second rôle indispensable du cinéma français.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Anne%20Le%20Ny",
+        "photo": "/images/111.jpg",
         "punchline": "Toujours présente à l'écran."
     },
     {
@@ -892,7 +892,7 @@
         "name": "Dave Mustaine",
         "description": "Leader de Megadeth. A été viré de Metallica (et il s'en souvient).",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Dave%20Mustaine",
+        "photo": "/images/112.jpg",
         "punchline": "Symphony of Destruction, mais il est vivant."
     },
     {
@@ -900,7 +900,7 @@
         "name": "Jean-Michel Blanquer",
         "description": "Ancien ministre de l'Éducation. Aime le sport à Ibiza.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Jean-Michel%20Blanquer",
+        "photo": "/images/113.jpg",
         "punchline": "L'école est finie, mais pas lui."
     },
     {
@@ -908,7 +908,7 @@
         "name": "Iker Casillas",
         "description": "San Iker. Gardien de but légendaire du Real Madrid.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Iker%20Casillas",
+        "photo": "/images/114.jpg",
         "punchline": "Il a arrêté les buts, pas de vivre."
     },
     {
@@ -916,7 +916,7 @@
         "name": "Eddy Merckx",
         "description": "Le Cannibale. A tout gagné sur un vélo.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Eddy%20Merckx",
+        "photo": "/images/115.jpg",
         "punchline": "Toujours en selle (ou presque)."
     },
     {
@@ -924,7 +924,7 @@
         "name": "Matt Groening",
         "description": "Créateur des Simpson. D'oh!",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Matt%20Groening",
+        "photo": "/images/116.jpg",
         "punchline": "Il dessine encore en jaune."
     },
     {
@@ -932,7 +932,7 @@
         "name": "Anthony Kavanagh",
         "description": "Humoriste canadien. Il met le feu.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Anthony%20Kavanagh",
+        "photo": "/images/117.jpg",
         "punchline": "Toujours là pour nous faire rire."
     },
     {
@@ -940,7 +940,7 @@
         "name": "Emiliano Sala",
         "description": "Footballeur argentin. Un destin tragique au-dessus de la Manche.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Emiliano%20Sala",
+        "photo": "/images/118.jpg",
         "punchline": "Disparu tragiquement en 2019."
     },
     {
@@ -948,7 +948,7 @@
         "name": "Alexis Lebrun",
         "description": "Prodige du tennis de table. Le ping-pong à 200 à l'heure.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Alexis%20Lebrun",
+        "photo": "/images/119.jpg",
         "punchline": "Smash ! Vivant."
     },
     {
@@ -956,7 +956,7 @@
         "name": "Zazie",
         "description": "Chanteuse zen ou speed. Je suis un homme (non).",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Zazie",
+        "photo": "/images/120.jpg",
         "punchline": "Elle envoie valser la mort."
     },
     {
@@ -964,7 +964,7 @@
         "name": "Sylvain Wiltord",
         "description": "Footballeur. Euro 2000, l'égalisation inespérée.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Sylvain%20Wiltord",
+        "photo": "/images/121.jpg",
         "punchline": "Toujours dans le temps additionnel de la vie."
     },
     {
@@ -972,7 +972,7 @@
         "name": "James Avery",
         "description": "Oncle Phil dans le Prince de Bel-Air. La voix de la sagesse.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=James%20Avery",
+        "photo": "/images/122.jpg",
         "punchline": "Parti rejoindre les anges en 2013."
     },
     {
@@ -980,7 +980,7 @@
         "name": "Mike Brant",
         "description": "Laisse-moi t'aimer. Chanteur à voix et idole des années 70.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Mike%20Brant",
+        "photo": "/images/123.jpg",
         "punchline": "Qui saura ? Il nous a quittés en 1975."
     },
     {
@@ -988,7 +988,7 @@
         "name": "Rick Astley",
         "description": "Never Gonna Give You Up. Le roi du Rickroll.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Rick%20Astley",
+        "photo": "/images/124.jpg",
         "punchline": "Never gonna let you down... he is alive."
     },
     {
@@ -996,7 +996,7 @@
         "name": "Laurent Baffie",
         "description": "Sniper de la télé. Il pose les questions que personne n'ose poser.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Laurent%20Baffie",
+        "photo": "/images/125.jpg",
         "punchline": "Toujours vivant pour vanner."
     },
     {
@@ -1004,7 +1004,7 @@
         "name": "Benoît Hamon",
         "description": "Homme politique. A tenté le revenu universel.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Beno%C3%AEt%20Hamon",
+        "photo": "/images/126.jpg",
         "punchline": "Il a quitté le PS, pas la vie."
     },
     {
@@ -1012,7 +1012,7 @@
         "name": "Venus Williams",
         "description": "Légende du tennis. La sœur de Serena.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Venus%20Williams",
+        "photo": "/images/127.jpg",
         "punchline": "Jeu, set et match : vivante."
     },
     {
@@ -1020,7 +1020,7 @@
         "name": "Louis Bodin",
         "description": "Monsieur Météo. Il fait la pluie et le beau temps.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Louis%20Bodin",
+        "photo": "/images/128.jpg",
         "punchline": "Pas de nuage à l'horizon pour sa santé."
     },
     {
@@ -1028,7 +1028,7 @@
         "name": "Kevin Bacon",
         "description": "Acteur omniprésent. Tout le monde est lié à lui.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Kevin%20Bacon",
+        "photo": "/images/129.jpg",
         "punchline": "Footloose et bien vivant."
     },
     {
@@ -1036,7 +1036,7 @@
         "name": "Philippe Pétain",
         "description": "Maréchal de France. Héros de Verdun puis chef de Vichy.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Philippe%20P%C3%A9tain",
+        "photo": "/images/130.jpg",
         "punchline": "Mort à l'île d'Yeu en 1951."
     },
     {
@@ -1044,7 +1044,7 @@
         "name": "Bruce Springsteen",
         "description": "The Boss. Born in the USA.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Bruce%20Springsteen",
+        "photo": "/images/131.jpg",
         "punchline": "Born to run (and stay alive)."
     },
     {
@@ -1052,7 +1052,7 @@
         "name": "Claude Lévi-Strauss",
         "description": "Anthropologue. Tristes Tropiques.",
         "isAlive": false,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Claude%20L%C3%A9vi-Strauss",
+        "photo": "/images/132.jpg",
         "punchline": "Centenaire, mais parti en 2009."
     },
     {
@@ -1060,7 +1060,7 @@
         "name": "Bill Cosby",
         "description": "Acteur comique déchu. Le Cosby Show.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Bill%20Cosby",
+        "photo": "/images/133.jpg",
         "punchline": "Toujours vivant, malgré les scandales."
     },
     {
@@ -1068,7 +1068,7 @@
         "name": "Bernard Laporte",
         "description": "Entraîneur de rugby et dirigeant. Pas de chichis.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Bernard%20Laporte",
+        "photo": "/images/134.jpg",
         "punchline": "Toujours dans la mêlée."
     },
     {
@@ -1076,7 +1076,7 @@
         "name": "Rupert Grint",
         "description": "Ron Weasley. Le meilleur ami du sorcier.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Rupert%20Grint",
+        "photo": "/images/135.jpg",
         "punchline": "Bloody hell ! Il est vivant."
     },
     {
@@ -1084,7 +1084,7 @@
         "name": "Vladimir Poutine",
         "description": "Président russe. Judo et ours.",
         "isAlive": true,
-        "photo": "https://placehold.co/600x600/222/FFF?text=Vladimir%20Poutine",
+        "photo": "/images/136.jpg",
         "punchline": "Toujours au Kremlin."
     }
 ]

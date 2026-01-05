@@ -32,5 +32,6 @@
 
 ## Conventions
 - **Language:** Code is in English (variable names), but UI text and data content are in **French**.
+- **Directives:** Tous les cahiers des charges et directives techniques doivent être placés dans le dossier `gemini-directives` et suivre la nomenclature numérique incrémentale (ex: `0.1.md`, `0.6.md`).
 - **State Management:** The `Game` class is the single source of truth for the game state.
 - **Rendering:** `main.js` re-renders full screen sections based on state changes (simple SPA approach without a framework).
