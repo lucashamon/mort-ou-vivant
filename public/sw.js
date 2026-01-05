@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mort-ou-vivant-v1';
+const CACHE_NAME = 'mort-ou-vivant-v2'; // Bump this version on every deployment to invalidate cache
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -17,6 +17,8 @@ self.addEventListener('install', (event) => {
             return cache.addAll(ASSETS_TO_CACHE);
         })
     );
+    // Force the waiting service worker to become the active service worker.
+    self.skipWaiting();
 });
 
 // Fetch event: Cache First, Network Fallback
@@ -47,6 +49,9 @@ self.addEventListener('activate', (event) => {
                     return caches.delete(key);
                 }
             }));
+        }).then(() => {
+            // Tell the active service worker to take control of the page immediately.
+            return self.clients.claim();
         })
     );
 });
