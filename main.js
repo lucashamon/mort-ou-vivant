@@ -110,8 +110,8 @@ const renderGameOver = (score) => {
       <button id="restart-btn" class="btn btn-start">REJOUER</button>
     </div>
   `;
+  // Restart leads back to mode selection (Start Screen)
   document.getElementById('restart-btn').addEventListener('click', renderStartScreen);
-  // Restart leads back to mode selection
 };
 
 // ... (renderVictory remains similar but restart should go to start screen) ... 
@@ -127,6 +127,7 @@ const renderVictory = (score) => {
       <button id="restart-btn" class="btn btn-start" style="background: var(--color-success);">REJOUER</button>
     </div>
   `;
+  // Restart leads back to mode selection (Start Screen)
   document.getElementById('restart-btn').addEventListener('click', renderStartScreen);
 };
 
