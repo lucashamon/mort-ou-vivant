@@ -17,7 +17,7 @@ const renderStartScreen = () => {
         </p>
         <div class="mode-selection">
             <button id="start-classic-btn" class="btn btn-mode">MODE CLASSIQUE</button>
-            <button id="start-turbo-btn" class="btn btn-mode turbo">MODE TURBO (3s)</button>
+            <button id="start-turbo-btn" class="btn btn-mode turbo">MODE TURBO</button>
         </div>
       </div>
     `;
@@ -136,7 +136,7 @@ const startGame = (mode) => {
   if (timerId) clearTimeout(timerId);
   game.start(mode);
   updateUI();
-  
+
   if (mode === 'turbo') {
     timerId = setTimeout(() => {
       handleTimeout();
