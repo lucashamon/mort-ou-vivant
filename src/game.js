@@ -6,9 +6,11 @@ export class Game {
         this.lives = 3;
         this.currentCard = null;
         this.gameOver = false;
+        this.mode = 'classic'; // 'classic' | 'turbo'
     }
 
-    start() {
+    start(mode = 'classic') {
+        this.mode = mode;
         this.score = 0;
         this.lives = 3;
         this.gameOver = false;
@@ -56,15 +58,32 @@ export class Game {
             this.gameOver = true;
         }
 
-        // Check if deck is empty after this turn (actually nextTurn handles this, 
-        // but we can check early if we want immediate feedback, though nextTurn is standard flow)
-
         return {
             correct: isCorrect,
             lives: this.lives,
             score: this.score,
             gameOver: this.gameOver,
-            details: this.currentCard // For displaying punchline
+            details: this.currentCard
+        };
+    }
+
+    handleTimeout() {
+        if (this.gameOver || !this.currentCard) return null;
+
+        // Timeout is always a wrong answer/penalty
+        this.lives--;
+
+        if (this.lives <= 0) {
+            this.gameOver = true;
+        }
+
+        return {
+            correct: false,
+            timeout: true, // Marker for specific UI feedback
+            lives: this.lives,
+            score: this.score,
+            gameOver: this.gameOver,
+            details: this.currentCard
         };
     }
 
@@ -74,7 +93,8 @@ export class Game {
             lives: this.lives,
             gameOver: this.gameOver,
             victory: this.victory,
-            currentCard: this.currentCard
+            currentCard: this.currentCard,
+            mode: this.mode
         };
     }
 }

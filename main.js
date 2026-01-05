@@ -4,36 +4,45 @@ import gameData from './data.json';
 
 const app = document.getElementById('app');
 let game = new Game(gameData);
+let timerId = null;
 
 // Views
 const renderStartScreen = () => {
-    app.innerHTML = `
-      <div class="screen">
+  app.innerHTML = `
+      <div class="screen start-screen">
         <h1>Mort<br>ou<br>Vivant ?</h1>
         <p class="description">
           Testez votre culture nécrologique.<br>
           3 erreurs et c'est la tombe.
         </p>
-        <button id="start-btn" class="btn btn-start">JOUER</button>
+        <div class="mode-selection">
+            <button id="start-classic-btn" class="btn btn-mode">MODE CLASSIQUE</button>
+            <button id="start-turbo-btn" class="btn btn-mode turbo">MODE TURBO (3s)</button>
+        </div>
       </div>
     `;
 
-    // Add simple entrance animation to title
-
-    document.getElementById('start-btn').addEventListener('click', startGame);
+  document.getElementById('start-classic-btn').addEventListener('click', () => startGame('classic'));
+  document.getElementById('start-turbo-btn').addEventListener('click', () => startGame('turbo'));
 };
 
 const renderGameScreen = (state) => {
-    const { card, lives, score } = state;
-    if (!card) return;
+  const { card, lives, score, mode } = state;
+  if (!card) return;
 
-    app.innerHTML = `
+  const timerHTML = mode === 'turbo'
+    ? `<div class="timer-container"><div class="timer-bar timer-anim"></div></div>`
+    : '';
+
+  app.innerHTML = `
       <div class="screen game-screen">
         <div class="status-bar">
           <span class="lives">${'❤'.repeat(lives)}</span>
           <span class="score">SCORE: ${score}</span>
         </div>
         
+        ${timerHTML}
+
         <div class="card" id="game-card">
           <div class="photo-container">
             <img src="${card.photo}" alt="${card.name}" class="photo" onerror="this.src='https://placehold.co/600x600/333/FFF?text=Image+Non+Trouvée'">
@@ -49,40 +58,48 @@ const renderGameScreen = (state) => {
       </div>
     `;
 
-    document.getElementById('dead-btn').addEventListener('click', () => handleGuess(false));
-    document.getElementById('alive-btn').addEventListener('click', () => handleGuess(true));
+  document.getElementById('dead-btn').addEventListener('click', () => handleGuess(false));
+  document.getElementById('alive-btn').addEventListener('click', () => handleGuess(true));
 };
 
 const renderFeedback = (result) => {
-    const feedbackArea = document.getElementById('game-card');
+  const feedbackArea = document.getElementById('game-card');
 
-    // Create an overlay inside the card
-    const overlay = document.createElement('div');
-    overlay.className = 'overlay';
+  // Create an overlay inside the card
+  const overlay = document.createElement('div');
+  overlay.className = 'overlay';
 
-    const icon = result.correct ? '✅' : '❌';
-    const color = result.correct ? 'var(--color-success)' : 'var(--color-error)';
-    const message = result.correct ? "Bien joué !" : "Aïe, raté...";
+  let icon, color, message;
 
-    // Determine punchline: if supplied in result.details, use it.
-    const punchline = result.details && result.details.punchline ? result.details.punchline : "";
+  if (result.timeout) {
+    icon = '⏳';
+    color = 'var(--color-error)';
+    message = "TROP LENT !";
+  } else {
+    icon = result.correct ? '✅' : '❌';
+    color = result.correct ? 'var(--color-success)' : 'var(--color-error)';
+    message = result.correct ? "Bien joué !" : "Aïe, raté...";
+  }
 
-    overlay.innerHTML = `
+  // Determine punchline: if supplied in result.details, use it.
+  const punchline = result.details && result.details.punchline ? result.details.punchline : "";
+
+  overlay.innerHTML = `
         <div class="result-icon">${icon}</div>
         <p class="punchline" style="border-bottom: 2px solid ${color}; padding-bottom: 1rem;">${message}</p>
         <p class="bio" style="color: #fff; margin-bottom: 1.5rem;">${punchline}</p>
         <button class="btn next-btn" id="next-btn">SUIVANT</button>
     `;
 
-    feedbackArea.appendChild(overlay);
+  feedbackArea.appendChild(overlay);
 
-    const nextBtn = document.getElementById('next-btn');
-    nextBtn.focus();
-    nextBtn.addEventListener('click', nextTurn);
+  const nextBtn = document.getElementById('next-btn');
+  nextBtn.focus();
+  nextBtn.addEventListener('click', nextTurn);
 };
 
 const renderGameOver = (score) => {
-    app.innerHTML = `
+  app.innerHTML = `
     <div class="screen">
       <h1>GAME OVER</h1>
       <p class="description">La faucheuse a gagné.</p>
@@ -93,11 +110,13 @@ const renderGameOver = (score) => {
       <button id="restart-btn" class="btn btn-start">REJOUER</button>
     </div>
   `;
-    document.getElementById('restart-btn').addEventListener('click', startGame);
+  document.getElementById('restart-btn').addEventListener('click', renderStartScreen);
+  // Restart leads back to mode selection
 };
 
+// ... (renderVictory remains similar but restart should go to start screen) ... 
 const renderVictory = (score) => {
-    app.innerHTML = `
+  app.innerHTML = `
     <div class="screen">
       <h1 style="color: var(--color-success);">VICTOIRE !</h1>
       <p class="description">Incroyable ! Vous avez épuisé toutes les questions.</p>
@@ -108,44 +127,62 @@ const renderVictory = (score) => {
       <button id="restart-btn" class="btn btn-start" style="background: var(--color-success);">REJOUER</button>
     </div>
   `;
-    document.getElementById('restart-btn').addEventListener('click', startGame);
+  document.getElementById('restart-btn').addEventListener('click', renderStartScreen);
 };
 
+
 // Logic interaction
-const startGame = () => {
-    game.start();
-    updateUI();
+const startGame = (mode) => {
+  game.start(mode);
+  updateUI();
 };
 
 const nextTurn = () => {
-    const card = game.nextTurn();
-    if (!card) {
-        // If no card returned, check state to see if it's game over or victory
-        const state = game.getState();
-        if (state.victory) {
-            renderVictory(state.score);
-        } else {
-            renderGameOver(state.score);
-        }
+  if (timerId) clearTimeout(timerId); // Clear any pending timer
+
+  const card = game.nextTurn();
+  if (!card) {
+    // If no card returned, check state to see if it's game over or victory
+    const state = game.getState();
+    if (state.victory) {
+      renderVictory(state.score);
     } else {
-        updateUI();
+      renderGameOver(state.score);
     }
+  } else {
+    updateUI();
+    // Start timer if turbo
+    const state = game.getState();
+    if (state.mode === 'turbo') {
+      timerId = setTimeout(() => {
+        handleTimeout();
+      }, 3000);
+    }
+  }
 };
 
 const handleGuess = (isAlive) => {
-    const result = game.guess(isAlive);
-    if (!result) return; // Should not happen
+  if (timerId) clearTimeout(timerId); // Stop timer on answer
+  const result = game.guess(isAlive);
+  if (!result) return;
 
-    renderFeedback(result);
+  renderFeedback(result);
+};
+
+const handleTimeout = () => {
+  const result = game.handleTimeout();
+  if (!result) return;
+  renderFeedback(result);
 };
 
 const updateUI = () => {
-    const state = game.getState();
-    renderGameScreen({
-        card: state.currentCard,
-        lives: state.lives,
-        score: state.score
-    });
+  const state = game.getState();
+  renderGameScreen({
+    card: state.currentCard,
+    lives: state.lives,
+    score: state.score,
+    mode: state.mode
+  });
 };
 
 // Initial Render
