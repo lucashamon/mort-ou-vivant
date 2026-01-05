@@ -133,8 +133,15 @@ const renderVictory = (score) => {
 
 // Logic interaction
 const startGame = (mode) => {
+  if (timerId) clearTimeout(timerId);
   game.start(mode);
   updateUI();
+  
+  if (mode === 'turbo') {
+    timerId = setTimeout(() => {
+      handleTimeout();
+    }, 3000);
+  }
 };
 
 const nextTurn = () => {
