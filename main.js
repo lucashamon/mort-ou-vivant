@@ -171,6 +171,13 @@ const nextTurn = () => {
 
 const handleGuess = (isAlive) => {
   if (timerId) clearTimeout(timerId); // Stop timer on answer
+
+  // Disable buttons to prevent double-clicks
+  const deadBtn = document.getElementById('dead-btn');
+  const aliveBtn = document.getElementById('alive-btn');
+  if (deadBtn) deadBtn.disabled = true;
+  if (aliveBtn) aliveBtn.disabled = true;
+
   const result = game.guess(isAlive);
   if (!result) return;
 
@@ -180,6 +187,13 @@ const handleGuess = (isAlive) => {
 const handleTimeout = () => {
   const result = game.handleTimeout();
   if (!result) return;
+
+  // Disable buttons on timeout too
+  const deadBtn = document.getElementById('dead-btn');
+  const aliveBtn = document.getElementById('alive-btn');
+  if (deadBtn) deadBtn.disabled = true;
+  if (aliveBtn) aliveBtn.disabled = true;
+
   renderFeedback(result);
 };
 
