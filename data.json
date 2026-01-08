@@ -1086,5 +1086,165 @@
         "isAlive": true,
         "photo": "/images/136.jpg",
         "punchline": "Toujours au Kremlin."
+    },
+    {
+        "id": 137,
+        "name": "Teddy Riner",
+        "description": "Judoka français. Il met tout le monde au tapis.",
+        "isAlive": true,
+        "photo": "/images/137.jpg",
+        "punchline": "Toujours debout sur le tatami."
+    },
+    {
+        "id": 138,
+        "name": "Angèle",
+        "description": "Chanteuse belge. Balance ton quoi.",
+        "isAlive": true,
+        "photo": "/images/138.jpg",
+        "punchline": "Elle est toujours la reine de la pop belge."
+    },
+    {
+        "id": 139,
+        "name": "Pierre Niney",
+        "description": "Acteur français. Yves Saint Laurent, OSS 117.",
+        "isAlive": true,
+        "photo": "/images/139.jpg",
+        "punchline": "Toujours aussi drôle et vivant."
+    },
+    {
+        "id": 140,
+        "name": "Sophie Marceau",
+        "description": "L'actrice préférée des Français. La Boum.",
+        "isAlive": true,
+        "photo": "/images/140.jpg",
+        "punchline": "Le temps ne semble pas avoir de prise sur elle."
+    },
+    {
+        "id": 141,
+        "name": "Jean-Luc Mélenchon",
+        "description": "La France Insoumise. La République, c'est lui.",
+        "isAlive": true,
+        "photo": "/images/141.jpg",
+        "punchline": "Toujours là pour faire du bruit."
+    },
+    {
+        "id": 142,
+        "name": "Cyril Hanouna",
+        "description": "Baba. Touche pas à mon poste.",
+        "isAlive": true,
+        "photo": "/images/142.jpg",
+        "punchline": "La darka continue, il est vivant."
+    },
+    {
+        "id": 143,
+        "name": "Jeff Bezos",
+        "description": "Fondateur d'Amazon. Il a aussi une fusée.",
+        "isAlive": true,
+        "photo": "/images/143.jpg",
+        "punchline": "Livraison Prime en 24h : toujours vivant."
+    },
+    {
+        "id": 144,
+        "name": "Zendaya",
+        "description": "Actrice superstar. Euphoria, Dune, Spider-Man.",
+        "isAlive": true,
+        "photo": "/images/144.jpg",
+        "punchline": "L'icône de la Gen Z est bien là."
+    },
+    {
+        "id": 145,
+        "name": "Karim Benzema",
+        "description": "Nueve. Ballon d'Or. Le peuple.",
+        "isAlive": true,
+        "photo": "/images/145.jpg",
+        "punchline": "Toujours dans la surface de réparation."
+    },
+    {
+        "id": 146,
+        "name": "Thomas Pesquet",
+        "description": "L'astronaute français. Il vit dans l'ISS (parfois).",
+        "isAlive": true,
+        "photo": "/images/146.jpg",
+        "punchline": "Il a gardé les pieds sur Terre (pour l'instant)."
+    },
+    {
+        "id": 147,
+        "name": "Matthew Perry",
+        "description": "Chandler Bing. Could he BE any more dead?",
+        "isAlive": false,
+        "photo": "/images/147.jpg",
+        "punchline": "Parti retrouver ses Friends en 2023."
+    },
+    {
+        "id": 148,
+        "name": "Lady Diana",
+        "description": "Princesse de Galles. La princesse des cœurs.",
+        "isAlive": false,
+        "photo": "/images/148.jpg",
+        "punchline": "Une tragédie sous le pont de l'Alma en 1997."
+    },
+    {
+        "id": 149,
+        "name": "George H.W. Bush",
+        "description": "41ème président des USA. Père de George W.",
+        "isAlive": false,
+        "photo": "/images/149.jpg",
+        "punchline": "Décédé en 2018."
+    },
+    {
+        "id": 150,
+        "name": "Fidel Castro",
+        "description": "El Comandante. Révolutionnaire cubain.",
+        "isAlive": false,
+        "photo": "/images/150.jpg",
+        "punchline": "La révolution s'est arrêtée en 2016."
+    },
+    {
+        "id": 151,
+        "name": "Molière",
+        "description": "Jean-Baptiste Poquelin. Le patron de la Comédie-Française.",
+        "isAlive": false,
+        "photo": "/images/151.jpg",
+        "punchline": "Mort sur scène (presque) en 1673."
+    },
+    {
+        "id": 152,
+        "name": "Victor Hugo",
+        "description": "L'homme siècle. Les Misérables.",
+        "isAlive": false,
+        "photo": "/images/152.jpg",
+        "punchline": "Entré au Panthéon en 1885."
+    },
+    {
+        "id": 153,
+        "name": "Jimi Hendrix",
+        "description": "Dieu de la guitare électrique. Woodstock.",
+        "isAlive": false,
+        "photo": "/images/153.jpg",
+        "punchline": "La distorsion s'est tue en 1970."
+    },
+    {
+        "id": 154,
+        "name": "The Notorious B.I.G.",
+        "description": "Biggie Smalls. King of New York.",
+        "isAlive": false,
+        "photo": "/images/154.jpg",
+        "punchline": "It was all a dream... fini en 1997."
+    },
+    {
+        "id": 155,
+        "name": "Gaspard Ulliel",
+        "description": "Acteur magnétique. Saint Laurent, Hannibal Lecter.",
+        "isAlive": false,
+        "photo": "/images/155.jpg",
+        "punchline": "Parti brutalement en 2022."
+    },
+    {
+        "id": 156,
+        "name": "Jane Birkin",
+        "description": "La plus française des Anglaises. Ex-fan des sixties.",
+        "isAlive": false,
+        "photo": "/images/156.jpg",
+        "punchline": "Elle est allée rejoindre Serge en 2023."
     }
 ]
