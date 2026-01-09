@@ -64,6 +64,18 @@ const renderGameScreen = (state) => {
 
 const renderFeedback = (result) => {
   const feedbackArea = document.getElementById('game-card');
+  
+  // Remove existing animations to allow re-triggering
+  feedbackArea.classList.remove('shake-anim', 'success-anim');
+  void feedbackArea.offsetWidth; // Trigger reflow
+
+  // Micro-interactions
+  if (result.correct) {
+    feedbackArea.classList.add('success-anim');
+  } else {
+    feedbackArea.classList.add('shake-anim');
+    if (navigator.vibrate) navigator.vibrate(200); // Vibrate on error
+  }
 
   // Create an overlay inside the card
   const overlay = document.createElement('div');
@@ -99,6 +111,7 @@ const renderFeedback = (result) => {
 };
 
 const renderGameOver = (score) => {
+  const state = game.getState();
   app.innerHTML = `
     <div class="screen">
       <h1>GAME OVER</h1>
@@ -107,15 +120,20 @@ const renderGameOver = (score) => {
           <h2 style="font-size: 1rem; color: #888; margin:0;">Votre Score Final</h2>
           <div style="font-size: 4rem; font-weight: 900; color: white;">${score}</div>
       </div>
-      <button id="restart-btn" class="btn btn-start">REJOUER</button>
+      <div class="end-controls">
+        <button id="restart-btn" class="btn btn-start">REJOUER</button>
+        <button id="share-btn" class="btn btn-share">PARTAGER</button>
+      </div>
     </div>
   `;
   // Restart leads back to mode selection (Start Screen)
   document.getElementById('restart-btn').addEventListener('click', renderStartScreen);
+  document.getElementById('share-btn').addEventListener('click', () => shareScore(state));
 };
 
 // ... (renderVictory remains similar but restart should go to start screen) ... 
 const renderVictory = (score) => {
+  const state = game.getState();
   app.innerHTML = `
     <div class="screen">
       <h1 style="color: var(--color-success);">VICTOIRE !</h1>
@@ -124,11 +142,32 @@ const renderVictory = (score) => {
           <h2 style="font-size: 1rem; color: #888; margin:0;">Score Final Légendaire</h2>
           <div style="font-size: 4rem; font-weight: 900; color: white;">${score}</div>
       </div>
-      <button id="restart-btn" class="btn btn-start" style="background: var(--color-success);">REJOUER</button>
+      <div class="end-controls">
+        <button id="restart-btn" class="btn btn-start" style="background: var(--color-success);">REJOUER</button>
+        <button id="share-btn" class="btn btn-share">PARTAGER</button>
+      </div>
     </div>
   `;
   // Restart leads back to mode selection (Start Screen)
   document.getElementById('restart-btn').addEventListener('click', renderStartScreen);
+  document.getElementById('share-btn').addEventListener('click', () => shareScore(state));
+};
+
+const shareScore = (state) => {
+  const emojis = state.history.map(h => h ? '🟩' : '🟥').join('');
+  const modeText = state.mode === 'turbo' ? '🔥 MODE TURBO' : '💀 MODE CLASSIQUE';
+  const text = `💀 Mort ou Vivant ?\n${modeText}\nScore: ${state.score}\n${emojis}\nhttps://mort-ou-vivant.vercel.app`;
+
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('share-btn');
+    const originalText = btn.innerText;
+    btn.innerText = 'COPIÉ ! ✅';
+    btn.classList.add('btn-success');
+    setTimeout(() => {
+      btn.innerText = originalText;
+      btn.classList.remove('btn-success');
+    }, 2000);
+  });
 };
 
 

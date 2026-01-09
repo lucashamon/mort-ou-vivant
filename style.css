@@ -62,6 +62,26 @@ body {
     }
 }
 
+/* New Animations for Micro-interactions */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+@keyframes flash-success {
+    0% { background-color: rgba(0, 230, 118, 0.4); }
+    100% { background-color: transparent; }
+}
+
+.shake-anim {
+    animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.success-anim {
+    animation: flash-success 0.3s ease-out;
+}
+
 /* Layout général pour les écrans */
 .screen {
     flex: 1;
@@ -294,9 +314,6 @@ h1 {
 /* =========================================
    DESKTOP & TABLET OVERRIDES (Progressive Enhancement)
    ========================================= */
-/* =========================================
-   DESKTOP & TABLET OVERRIDES (Progressive Enhancement)
-   ========================================= */
 @media (min-width: 501px) {
     #app {
         max-width: 600px;
@@ -349,6 +366,31 @@ h1 {
 .btn-mode.turbo:hover {
     background: var(--color-error);
     color: white;
+}
+
+/* End Game Controls */
+.end-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btn-share {
+    background: transparent;
+    border: 2px solid var(--color-text);
+    color: var(--color-text);
+}
+
+.btn-share:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn.btn-success {
+    background: var(--color-success) !important;
+    border-color: var(--color-success) !important;
+    color: black !important;
 }
 
 /* Timer Bar */
