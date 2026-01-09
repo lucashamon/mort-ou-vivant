@@ -7,6 +7,7 @@ export class Game {
         this.currentCard = null;
         this.gameOver = false;
         this.mode = 'classic'; // 'classic' | 'turbo'
+        this.history = []; // Track results (true = correct, false = wrong)
     }
 
     start(mode = 'classic') {
@@ -15,6 +16,7 @@ export class Game {
         this.lives = 3;
         this.gameOver = false;
         this.victory = false;
+        this.history = [];
         // Clone and shuffle data
         this.deck = this.shuffle([...this.initialData]);
         return this.nextTurn();
@@ -54,6 +56,8 @@ export class Game {
             this.lives--;
         }
 
+        this.history.push(isCorrect);
+
         if (this.lives <= 0) {
             this.gameOver = true;
         }
@@ -72,6 +76,7 @@ export class Game {
 
         // Timeout is always a wrong answer/penalty
         this.lives--;
+        this.history.push(false);
 
         if (this.lives <= 0) {
             this.gameOver = true;
@@ -94,7 +99,8 @@ export class Game {
             gameOver: this.gameOver,
             victory: this.victory,
             currentCard: this.currentCard,
-            mode: this.mode
+            mode: this.mode,
+            history: this.history
         };
     }
 }
