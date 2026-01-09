@@ -14,12 +14,10 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                // Add version to force update
-                navigator.serviceWorker.register('./sw.js?v=' + new Date().getTime())
+                // Fixed version to prevent infinite loop
+                navigator.serviceWorker.register('./sw.js?v=4.0') 
                     .then(reg => {
                         console.log('SW enregistré !');
-                        
-                        // Check for updates periodically
                         reg.update();
                     })
                     .catch(err => console.log('Erreur SW :', err));
