@@ -426,3 +426,58 @@ h1 {
 .timer-anim {
     animation: timer-tic-tac 3s linear forwards;
 }
+
+/* =========================================
+   RESULT SCREENS (NEW)
+   ========================================= */
+.result-screen {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.result-card {
+    background: var(--color-card-bg);
+    border-radius: 20px;
+    padding: 2rem;
+    width: 100%;
+    border: 1px solid #333;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.score-display {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+    margin: 1rem 0;
+    text-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+.stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #333;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

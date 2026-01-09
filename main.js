@@ -112,43 +112,73 @@ const renderFeedback = (result) => {
 
 const renderGameOver = (score) => {
   const state = game.getState();
+  const total = state.history.length;
+  const correct = state.history.filter(Boolean).length;
+  const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+
   app.innerHTML = `
-    <div class="screen">
-      <h1>GAME OVER</h1>
-      <p class="description">La faucheuse a gagné.</p>
-      <div class="card" style="margin: 0 auto 2rem auto; text-align: center;">
-          <h2 style="font-size: 1rem; color: #888; margin:0;">Votre Score Final</h2>
-          <div style="font-size: 4rem; font-weight: 900; color: white;">${score}</div>
+    <div class="screen result-screen">
+      <h1 style="color: var(--color-error); text-shadow: 0 0 15px rgba(255, 23, 68, 0.4);">GAME OVER</h1>
+      <p class="description">La faucheuse a gagné cette manche.</p>
+      
+      <div class="result-card">
+          <h2 style="font-size: 0.9rem; color: #888; margin:0; text-transform:uppercase;">Score Final</h2>
+          <div class="score-display" style="color: var(--color-error);">${score}</div>
+          
+          <div class="stat-grid">
+            <div class="stat-item">
+              <span class="stat-value">${total}</span>
+              <span class="stat-label">Joués</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">${accuracy}%</span>
+              <span class="stat-label">Précision</span>
+            </div>
+          </div>
       </div>
+
       <div class="end-controls">
         <button id="restart-btn" class="btn btn-start">REJOUER</button>
         <button id="share-btn" class="btn btn-share">PARTAGER</button>
       </div>
     </div>
   `;
-  // Restart leads back to mode selection (Start Screen)
   document.getElementById('restart-btn').addEventListener('click', renderStartScreen);
   document.getElementById('share-btn').addEventListener('click', () => shareScore(state));
 };
 
-// ... (renderVictory remains similar but restart should go to start screen) ... 
 const renderVictory = (score) => {
   const state = game.getState();
+  const total = state.history.length;
+  const accuracy = 100; // Victory means deck finished, assuming handling of mistakes is done via lives
+
   app.innerHTML = `
-    <div class="screen">
-      <h1 style="color: var(--color-success);">VICTOIRE !</h1>
+    <div class="screen result-screen">
+      <h1 style="color: var(--color-success); text-shadow: 0 0 15px rgba(0, 230, 118, 0.4);">VICTOIRE !</h1>
       <p class="description">Incroyable ! Vous avez épuisé toutes les questions.</p>
-      <div class="card" style="margin: 0 auto 2rem auto; text-align: center; border-color: var(--color-success);">
-          <h2 style="font-size: 1rem; color: #888; margin:0;">Score Final Légendaire</h2>
-          <div style="font-size: 4rem; font-weight: 900; color: white;">${score}</div>
+      
+      <div class="result-card" style="border-color: var(--color-success);">
+          <h2 style="font-size: 0.9rem; color: #888; margin:0; text-transform:uppercase;">Score Légendaire</h2>
+          <div class="score-display" style="color: var(--color-success);">${score}</div>
+
+          <div class="stat-grid">
+            <div class="stat-item">
+              <span class="stat-value">${total}</span>
+              <span class="stat-label">Joués</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">100%</span>
+              <span class="stat-label">Précision</span>
+            </div>
+          </div>
       </div>
+
       <div class="end-controls">
         <button id="restart-btn" class="btn btn-start" style="background: var(--color-success);">REJOUER</button>
         <button id="share-btn" class="btn btn-share">PARTAGER</button>
       </div>
     </div>
   `;
-  // Restart leads back to mode selection (Start Screen)
   document.getElementById('restart-btn').addEventListener('click', renderStartScreen);
   document.getElementById('share-btn').addEventListener('click', () => shareScore(state));
 };
